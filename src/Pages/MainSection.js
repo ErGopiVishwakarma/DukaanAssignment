@@ -52,8 +52,8 @@ const MainSection = () => {
                   <p>Next Payout</p>
                   <img src={help} className=' h-4 w-4 text-[#FFF] opacity-80' />
                 </div>
-                <div className='flex justify-between w-full'>
-                  <p className='text-[#FFFFFF]'>₹ 2,312.23</p>
+                <div className='flex justify-between w-full items-center'>
+                  <p className=' text-[#FFFFFF] font-medium text-[28px]'>₹ 2,312.23</p>
                   <div className=' text-[#FFFFFF] underline decoration-1 flex gap-1 '><p>23 orders </p><img src={rightArrow} /></div>
                 </div>
               </div>
@@ -67,8 +67,8 @@ const MainSection = () => {
                 <p>Amount Pending</p>
                 <img src={help} className=' h-4 w-4' />
               </div>
-              <div className='flex justify-between'>
-                <p>₹ 2,312.23</p>
+              <div className='flex justify-between items-center'>
+                <p className=' text-[#1A181E] font-medium text-[28px]'>₹ 2,312.23</p>
                 <p className=' text-[#146EB4]'>{`23 orders >`}</p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const MainSection = () => {
                 <img src={help} className=' h-4 w-4' />
               </div>
               <div className='flex justify-between'>
-                <p>₹ 2,312.23</p>
+                <p className=' text-[#1A181E] font-medium text-[28px]'>₹ 2,312.23</p>
               </div>
             </div>
           </div>
