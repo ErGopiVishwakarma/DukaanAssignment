@@ -42,7 +42,7 @@ let arr = [
 const PayoutTable = () => {
 
     return (
-        <table class="w-full flex flex-col "  >
+        <table class="w-full flex flex-col ">
             <thead class="">
                 <tr className=' bg-[#F2F2F2] flex gap-10 w-full  px-3 py-[10px] '>
                     <th scope="col" class=" w-full text-sm leading-5 font-medium text-[#4D4D4D]"></th>
